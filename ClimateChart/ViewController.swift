@@ -21,6 +21,10 @@ class ViewController: UIViewController {
     
     chart.datasource = datasource
   }
+  
+  func configureChart() {
+    
+  }
 
 
 }
