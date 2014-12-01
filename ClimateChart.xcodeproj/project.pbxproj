@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		220433F41A2C706D0081C55B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220433F31A2C706D0081C55B /* AppDelegate.swift */; };
+		220433F61A2C706D0081C55B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220433F51A2C706D0081C55B /* ViewController.swift */; };
+		220433F91A2C706D0081C55B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220433F71A2C706D0081C55B /* Main.storyboard */; };
+		220433FB1A2C706D0081C55B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 220433FA1A2C706D0081C55B /* Images.xcassets */; };
+		220433FE1A2C706D0081C55B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 220433FC1A2C706D0081C55B /* LaunchScreen.xib */; };
+		2204340A1A2C706D0081C55B /* ClimateChartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220434091A2C706D0081C55B /* ClimateChartTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		220434041A2C706D0081C55B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 220433E61A2C706C0081C55B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 220433ED1A2C706C0081C55B;
+			remoteInfo = ClimateChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		220433EE1A2C706C0081C55B /* ClimateChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimateChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		220433F21A2C706D0081C55B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		220433F31A2C706D0081C55B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		220433F51A2C706D0081C55B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		220433F81A2C706D0081C55B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		220433FA1A2C706D0081C55B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		220433FD1A2C706D0081C55B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		220434031A2C706D0081C55B /* ClimateChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClimateChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		220434081A2C706D0081C55B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		220434091A2C706D0081C55B /* ClimateChartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateChartTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		220433EB1A2C706C0081C55B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220434001A2C706D0081C55B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		220433E51A2C706C0081C55B = {
+			isa = PBXGroup;
+			children = (
+				220433F01A2C706C0081C55B /* ClimateChart */,
+				220434061A2C706D0081C55B /* ClimateChartTests */,
+				220433EF1A2C706C0081C55B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		220433EF1A2C706C0081C55B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				220433EE1A2C706C0081C55B /* ClimateChart.app */,
+				220434031A2C706D0081C55B /* ClimateChartTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		220433F01A2C706C0081C55B /* ClimateChart */ = {
+			isa = PBXGroup;
+			children = (
+				220433F31A2C706D0081C55B /* AppDelegate.swift */,
+				220433F51A2C706D0081C55B /* ViewController.swift */,
+				220433F71A2C706D0081C55B /* Main.storyboard */,
+				220433FA1A2C706D0081C55B /* Images.xcassets */,
+				220433FC1A2C706D0081C55B /* LaunchScreen.xib */,
+				220433F11A2C706C0081C55B /* Supporting Files */,
+			);
+			path = ClimateChart;
+			sourceTree = "<group>";
+		};
+		220433F11A2C706C0081C55B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				220433F21A2C706D0081C55B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		220434061A2C706D0081C55B /* ClimateChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				220434091A2C706D0081C55B /* ClimateChartTests.swift */,
+				220434071A2C706D0081C55B /* Supporting Files */,
+			);
+			path = ClimateChartTests;
+			sourceTree = "<group>";
+		};
+		220434071A2C706D0081C55B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				220434081A2C706D0081C55B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		220433ED1A2C706C0081C55B /* ClimateChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2204340D1A2C706D0081C55B /* Build configuration list for PBXNativeTarget "ClimateChart" */;
+			buildPhases = (
+				220433EA1A2C706C0081C55B /* Sources */,
+				220433EB1A2C706C0081C55B /* Frameworks */,
+				220433EC1A2C706C0081C55B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClimateChart;
+			productName = ClimateChart;
+			productReference = 220433EE1A2C706C0081C55B /* ClimateChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		220434021A2C706D0081C55B /* ClimateChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220434101A2C706D0081C55B /* Build configuration list for PBXNativeTarget "ClimateChartTests" */;
+			buildPhases = (
+				220433FF1A2C706D0081C55B /* Sources */,
+				220434001A2C706D0081C55B /* Frameworks */,
+				220434011A2C706D0081C55B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				220434051A2C706D0081C55B /* PBXTargetDependency */,
+			);
+			name = ClimateChartTests;
+			productName = ClimateChartTests;
+			productReference = 220434031A2C706D0081C55B /* ClimateChartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		220433E61A2C706C0081C55B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ShinobiControls;
+				TargetAttributes = {
+					220433ED1A2C706C0081C55B = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					220434021A2C706D0081C55B = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 220433ED1A2C706C0081C55B;
+					};
+				};
+			};
+			buildConfigurationList = 220433E91A2C706C0081C55B /* Build configuration list for PBXProject "ClimateChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 220433E51A2C706C0081C55B;
+			productRefGroup = 220433EF1A2C706C0081C55B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				220433ED1A2C706C0081C55B /* ClimateChart */,
+				220434021A2C706D0081C55B /* ClimateChartTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		220433EC1A2C706C0081C55B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220433F91A2C706D0081C55B /* Main.storyboard in Resources */,
+				220433FE1A2C706D0081C55B /* LaunchScreen.xib in Resources */,
+				220433FB1A2C706D0081C55B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220434011A2C706D0081C55B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		220433EA1A2C706C0081C55B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220433F61A2C706D0081C55B /* ViewController.swift in Sources */,
+				220433F41A2C706D0081C55B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220433FF1A2C706D0081C55B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2204340A1A2C706D0081C55B /* ClimateChartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		220434051A2C706D0081C55B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 220433ED1A2C706C0081C55B /* ClimateChart */;
+			targetProxy = 220434041A2C706D0081C55B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		220433F71A2C706D0081C55B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				220433F81A2C706D0081C55B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		220433FC1A2C706D0081C55B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				220433FD1A2C706D0081C55B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2204340B1A2C706D0081C55B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2204340C1A2C706D0081C55B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2204340E1A2C706D0081C55B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClimateChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2204340F1A2C706D0081C55B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClimateChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		220434111A2C706D0081C55B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ClimateChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClimateChart.app/ClimateChart";
+			};
+			name = Debug;
+		};
+		220434121A2C706D0081C55B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ClimateChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClimateChart.app/ClimateChart";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		220433E91A2C706C0081C55B /* Build configuration list for PBXProject "ClimateChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2204340B1A2C706D0081C55B /* Debug */,
+				2204340C1A2C706D0081C55B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2204340D1A2C706D0081C55B /* Build configuration list for PBXNativeTarget "ClimateChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2204340E1A2C706D0081C55B /* Debug */,
+				2204340F1A2C706D0081C55B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		220434101A2C706D0081C55B /* Build configuration list for PBXNativeTarget "ClimateChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220434111A2C706D0081C55B /* Debug */,
+				220434121A2C706D0081C55B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 220433E61A2C706C0081C55B /* Project object */;
+}
