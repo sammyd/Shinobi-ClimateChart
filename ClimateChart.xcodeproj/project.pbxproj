@@ -455,6 +455,7 @@
 				2204340F1A2C706D0081C55B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		220434101A2C706D0081C55B /* Build configuration list for PBXNativeTarget "ClimateChartTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +464,7 @@
 				220434121A2C706D0081C55B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

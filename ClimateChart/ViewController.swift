@@ -19,11 +19,21 @@ class ViewController: UIViewController {
     
     chart.licenseKey = ""
     
-    chart.datasource = datasource
+    configureChart()
   }
   
   func configureChart() {
+    chart.datasource = datasource
     
+    let firstAxis = SChartNumberAxis()
+    firstAxis.title = "Temperature (C)"
+    firstAxis.rangePaddingLow = 15
+    let secondAxis = SChartNumberAxis()
+    secondAxis.title = "Precipitation (mm)"
+    secondAxis.rangePaddingHigh = 150
+    secondAxis.axisPosition = SChartAxisPositionReverse
+    chart.addYAxis(firstAxis)
+    chart.addYAxis(secondAxis)
   }
 
 

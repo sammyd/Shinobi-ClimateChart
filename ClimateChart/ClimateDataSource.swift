@@ -88,6 +88,14 @@ class ClimateDataSource: NSObject, SChartDatasource {
     }
   }
   
+  func sChart(chart: ShinobiChart!, yAxisForSeriesAtIndex index: Int) -> SChartAxis! {
+    if index == 2 {
+      return chart.allYAxes().last as SChartAxis
+    } else {
+      return chart.allYAxes().first as SChartAxis
+    }
+  }
+  
   
   private func importClimateDataFromPlistNamed(plistName: String) -> [ClimateData] {
     let path = NSBundle.mainBundle().pathForResource(plistName, ofType: "plist")
