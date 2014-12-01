@@ -13,6 +13,7 @@
 		220433FB1A2C706D0081C55B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 220433FA1A2C706D0081C55B /* Images.xcassets */; };
 		220433FE1A2C706D0081C55B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 220433FC1A2C706D0081C55B /* LaunchScreen.xib */; };
 		2204340A1A2C706D0081C55B /* ClimateChartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220434091A2C706D0081C55B /* ClimateChartTests.swift */; };
+		220434141A2C71FF0081C55B /* ShinobiCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220434131A2C71FF0081C55B /* ShinobiCharts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		220434031A2C706D0081C55B /* ClimateChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClimateChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		220434081A2C706D0081C55B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		220434091A2C706D0081C55B /* ClimateChartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateChartTests.swift; sourceTree = "<group>"; };
+		220434131A2C71FF0081C55B /* ShinobiCharts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShinobiCharts.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				220434141A2C71FF0081C55B /* ShinobiCharts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +85,7 @@
 				220433F71A2C706D0081C55B /* Main.storyboard */,
 				220433FA1A2C706D0081C55B /* Images.xcassets */,
 				220433FC1A2C706D0081C55B /* LaunchScreen.xib */,
+				220434131A2C71FF0081C55B /* ShinobiCharts.framework */,
 				220433F11A2C706C0081C55B /* Supporting Files */,
 			);
 			path = ClimateChart;
@@ -338,6 +342,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ClimateChart",
+				);
 				INFOPLIST_FILE = ClimateChart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,6 +356,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ClimateChart",
+				);
 				INFOPLIST_FILE = ClimateChart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
