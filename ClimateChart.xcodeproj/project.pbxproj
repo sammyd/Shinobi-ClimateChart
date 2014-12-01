@@ -14,6 +14,12 @@
 		220433FE1A2C706D0081C55B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 220433FC1A2C706D0081C55B /* LaunchScreen.xib */; };
 		2204340A1A2C706D0081C55B /* ClimateChartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220434091A2C706D0081C55B /* ClimateChartTests.swift */; };
 		220434141A2C71FF0081C55B /* ShinobiCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220434131A2C71FF0081C55B /* ShinobiCharts.framework */; };
+		220434171A2C76D90081C55B /* ClimateDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220434161A2C76D90081C55B /* ClimateDataSource.swift */; };
+		220434191A2C798A0081C55B /* ClimateData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 220434181A2C798A0081C55B /* ClimateData.plist */; };
+		2204341E1A2C8B2B0081C55B /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2204341A1A2C8B2B0081C55B /* libc++.dylib */; };
+		2204341F1A2C8B2B0081C55B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2204341B1A2C8B2B0081C55B /* OpenGLES.framework */; };
+		220434201A2C8B2B0081C55B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2204341C1A2C8B2B0081C55B /* QuartzCore.framework */; };
+		220434211A2C8B2B0081C55B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2204341D1A2C8B2B0081C55B /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,13 @@
 		220434081A2C706D0081C55B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		220434091A2C706D0081C55B /* ClimateChartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateChartTests.swift; sourceTree = "<group>"; };
 		220434131A2C71FF0081C55B /* ShinobiCharts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShinobiCharts.framework; sourceTree = "<group>"; };
+		220434151A2C74110081C55B /* ClimateChart_BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClimateChart_BridgingHeader.h; sourceTree = "<group>"; };
+		220434161A2C76D90081C55B /* ClimateDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClimateDataSource.swift; sourceTree = "<group>"; };
+		220434181A2C798A0081C55B /* ClimateData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ClimateData.plist; sourceTree = "<group>"; };
+		2204341A1A2C8B2B0081C55B /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		2204341B1A2C8B2B0081C55B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		2204341C1A2C8B2B0081C55B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2204341D1A2C8B2B0081C55B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +58,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2204341E1A2C8B2B0081C55B /* libc++.dylib in Frameworks */,
+				2204341F1A2C8B2B0081C55B /* OpenGLES.framework in Frameworks */,
+				220434201A2C8B2B0081C55B /* QuartzCore.framework in Frameworks */,
+				220434211A2C8B2B0081C55B /* Security.framework in Frameworks */,
 				220434141A2C71FF0081C55B /* ShinobiCharts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -85,8 +102,11 @@
 				220433F71A2C706D0081C55B /* Main.storyboard */,
 				220433FA1A2C706D0081C55B /* Images.xcassets */,
 				220433FC1A2C706D0081C55B /* LaunchScreen.xib */,
-				220434131A2C71FF0081C55B /* ShinobiCharts.framework */,
 				220433F11A2C706C0081C55B /* Supporting Files */,
+				220434151A2C74110081C55B /* ClimateChart_BridgingHeader.h */,
+				220434161A2C76D90081C55B /* ClimateDataSource.swift */,
+				220434181A2C798A0081C55B /* ClimateData.plist */,
+				220434221A2C8C440081C55B /* Frameworks */,
 			);
 			path = ClimateChart;
 			sourceTree = "<group>";
@@ -114,6 +134,18 @@
 				220434081A2C706D0081C55B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		220434221A2C8C440081C55B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2204341A1A2C8B2B0081C55B /* libc++.dylib */,
+				2204341B1A2C8B2B0081C55B /* OpenGLES.framework */,
+				2204341C1A2C8B2B0081C55B /* QuartzCore.framework */,
+				2204341D1A2C8B2B0081C55B /* Security.framework */,
+				220434131A2C71FF0081C55B /* ShinobiCharts.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				220434191A2C798A0081C55B /* ClimateData.plist in Resources */,
 				220433F91A2C706D0081C55B /* Main.storyboard in Resources */,
 				220433FE1A2C706D0081C55B /* LaunchScreen.xib in Resources */,
 				220433FB1A2C706D0081C55B /* Images.xcassets in Resources */,
@@ -216,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				220434171A2C76D90081C55B /* ClimateDataSource.swift in Sources */,
 				220433F61A2C706D0081C55B /* ViewController.swift in Sources */,
 				220433F41A2C706D0081C55B /* AppDelegate.swift in Sources */,
 			);
@@ -349,6 +383,7 @@
 				INFOPLIST_FILE = ClimateChart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ClimateChart/ClimateChart_BridgingHeader.h";
 			};
 			name = Debug;
 		};
@@ -363,6 +398,7 @@
 				INFOPLIST_FILE = ClimateChart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ClimateChart/ClimateChart_BridgingHeader.h";
 			};
 			name = Release;
 		};
